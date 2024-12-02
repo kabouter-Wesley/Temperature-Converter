@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <label>
+        <input id="unitAmountInput" type="number" placeholder="0.00">
+    </label>
+
+    <select id="unitInterpreterInput">
+        <option value="" hidden>From Unit</option>
+        <option>Fahrenheit</option>
+        <option>Celseus</option>
+        <option>Kelvin</option>
+    </select>
+
+    <select id="unitConverterInput">
+        <option value="" hidden>To Unit</option>
+        <option>Fahrenheit</option>
+        <option>Celseus</option>
+        <option>Kelvin</option>
+    </select>
+
+    <button id="calculateButton">Calculate</button>
+</form>
+<span id="convertedAmountText">a</span>
+<script src="script.js"></script>
+</body>
+</html>
