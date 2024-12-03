@@ -11,21 +11,25 @@
         <input id="unitAmountInput" type="number" placeholder="0.00">
     </label>
 
-    <select id="unitInterpreterInput">
-        <option value="" hidden>From Unit</option>
-        <option>Fahrenheit</option>
-        <option>Celseus</option>
-        <option>Kelvin</option>
-    </select>
+    <label>
+        <select id="unitInterpreterInput">
+            <option hidden>From Unit</option>
+            <option>Fahrenheit</option>
+            <option>Celsius</option>
+            <option>Kelvin</option>
+        </select>
+    </label>
 
-    <select id="unitConverterInput">
-        <option value="" hidden>To Unit</option>
-        <option>Fahrenheit</option>
-        <option>Celseus</option>
-        <option>Kelvin</option>
-    </select>
+    <label>
+        <select id="unitConverterInput">
+            <option hidden>To Unit</option>
+            <option>Fahrenheit</option>
+            <option>Celsius</option>
+            <option>Kelvin</option>
+        </select>
+    </label>
 
-    <button id="calculateButton">Calculate</button>
+    <button id="calculateButton" type="button">Calculate</button>
 </form>
 <span id="convertedAmountText">a</span>
 <script src="script.js"></script>
