@@ -7,28 +7,29 @@
 </head>
 <body>
 <form>
-    <label>
-        <input id="unitAmountInput" type="number" placeholder="0.00">
-    </label>
+    <section>
+        <label>
+            <input id="unitAmountInput" type="number" placeholder="0.00">
+        </label>
 
-    <label>
-        <select id="unitInterpreterInput">
-            <option hidden>From Unit</option>
-            <option>Fahrenheit</option>
-            <option>Celsius</option>
-            <option>Kelvin</option>
-        </select>
-    </label>
+        <label>
+            <select id="unitInterpreterInput">
+                <option hidden>From Unit</option>
+                <option>Fahrenheit</option>
+                <option>Celsius</option>
+                <option>Kelvin</option>
+            </select>
+        </label>
 
-    <label>
-        <select id="unitConverterInput">
-            <option hidden>To Unit</option>
-            <option>Fahrenheit</option>
-            <option>Celsius</option>
-            <option>Kelvin</option>
-        </select>
-    </label>
-
+        <label>
+            <select id="unitConverterInput">
+                <option hidden>To Unit</option>
+                <option>Fahrenheit</option>
+                <option>Celsius</option>
+                <option>Kelvin</option>
+            </select>
+        </label>
+    </section>
     <button id="calculateButton" type="button">Calculate</button>
 </form>
 <span id="convertedAmountText">a</span>
